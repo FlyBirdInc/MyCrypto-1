@@ -1,4 +1,4 @@
-import { BigNumber } from '@ethersproject/bignumber';
+import * as bignumber from '@ethersproject/bignumber';
 
 import { REPV1UUID } from '@config';
 import { DWAccountDisplay, ExtendedDPath } from '@services';
@@ -25,7 +25,7 @@ export const fAccounts: StoreAccount[] = [
         ticker: 'ETH' as TTicker,
         decimal: 18,
         isCustom: false,
-        balance: BigNumber.from('0x1b9ced41465be000')
+        balance: bignumber.BigNumber.from('0x1b9ced41465be000')
       },
       {
         uuid: REPV1UUID,
@@ -36,7 +36,7 @@ export const fAccounts: StoreAccount[] = [
         decimal: 18,
         contractAddress: '0x1985365e9f78359a9B6AD760e32412f4a445E862',
         isCustom: false,
-        balance: BigNumber.from('0x3782dace9d900000')
+        balance: bignumber.BigNumber.from('0x3782dace9d900000')
       }
     ],
     transactions: [],
@@ -64,7 +64,7 @@ export const fAccounts: StoreAccount[] = [
         ticker: 'RopstenETH' as TTicker,
         decimal: 18,
         isCustom: false,
-        balance: BigNumber.from('0x1b9ced41465be000')
+        balance: bignumber.BigNumber.from('0x1b9ced41465be000')
       }
     ],
 
@@ -94,7 +94,7 @@ export const fAccounts: StoreAccount[] = [
         contractAddress: '0xad6d458402f60fd3bd25163575031acdce07538d',
         type: 'erc20',
         isCustom: true,
-        balance: BigNumber.from('0x54ab1b2ceea88000')
+        balance: bignumber.BigNumber.from('0x54ab1b2ceea88000')
       },
       {
         uuid: '77de68da-ecd8-53ba-bbb5-8edb1c8e14d7' as TUuid,
@@ -104,7 +104,7 @@ export const fAccounts: StoreAccount[] = [
         ticker: 'RopstenETH' as TTicker,
         decimal: 18,
         isCustom: false,
-        balance: BigNumber.from('0x0e2347cb6425dc00')
+        balance: bignumber.BigNumber.from('0x0e2347cb6425dc00')
       }
     ],
     transactions: [],
@@ -133,7 +133,7 @@ export const fAccounts: StoreAccount[] = [
         contractAddress: '0xad6d458402f60fd3bd25163575031acdce07538d',
         type: 'erc20',
         isCustom: true,
-        balance: BigNumber.from('0x54ab1b2ceea88000')
+        balance: bignumber.BigNumber.from('0x54ab1b2ceea88000')
       },
       {
         uuid: '77de68da-ecd8-53ba-bbb5-8edb1c8e14d7' as TUuid,
@@ -143,7 +143,7 @@ export const fAccounts: StoreAccount[] = [
         ticker: 'RopstenETH' as TTicker,
         decimal: 18,
         isCustom: false,
-        balance: BigNumber.from('0x0e2347cb6425dc00')
+        balance: bignumber.BigNumber.from('0x0e2347cb6425dc00')
       }
     ],
     transactions: [],
@@ -172,7 +172,7 @@ export const fAccounts: StoreAccount[] = [
         contractAddress: '0xad6d458402f60fd3bd25163575031acdce07538d',
         type: 'erc20',
         isCustom: true,
-        balance: BigNumber.from('0x54ab1b2ceea88000')
+        balance: bignumber.BigNumber.from('0x54ab1b2ceea88000')
       },
       {
         uuid: '77de68da-ecd8-53ba-bbb5-8edb1c8e14d7' as TUuid,
@@ -183,7 +183,7 @@ export const fAccounts: StoreAccount[] = [
         decimal: 18,
 
         isCustom: false,
-        balance: BigNumber.from('0x0e2347cb6425dc00')
+        balance: bignumber.BigNumber.from('0x0e2347cb6425dc00')
       }
     ],
     transactions: [],
@@ -211,7 +211,7 @@ export const fAccounts: StoreAccount[] = [
         ticker: 'ETH' as TTicker,
         decimal: 18,
         isCustom: false,
-        balance: BigNumber.from('0x1b9ced41465be000')
+        balance: bignumber.BigNumber.from('0x1b9ced41465be000')
       }
     ],
     transactions: [],

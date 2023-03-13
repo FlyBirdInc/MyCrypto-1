@@ -52,7 +52,7 @@ To disable it you can your settings in chrome: chrome://flags/#allow-insecure-lo
 yarn build:staging
 ```
 
-#### Production
+#### **Production**
 
 ```bash
 # builds app for production
@@ -99,7 +99,7 @@ We use product analytics to help us understand how to improve our features.
 
 The collection of usage data requires the use of unique identifiers which are stored in the browsers local storage. The id is random and can be removed or reset in the Settings panel. This ensures that our product team can identify places to improve the product, while at the same time protecting the users anonymity.
 
-We strive to provide access to the Ethereum blockchain in the most secure way possible, we refuse any dynamic script injections and only rely on HTTPS calls to the API. The calls are formatted using the excellant [@blockstock/stats](https://github.com/MyCryptoHQ/stats) library.
+We strive to provide access to the Ethereum blockchain in the most secure way possible, we refuse any dynamic script injections and only rely on HTTPS calls to the API. The calls are formatted using the excellant [@blockstock/stats][def] library.
 
 Finally, since User privacy is part of our core values, we also take special care to ensure that the data we send to thrid-party servers is purged from any information which may be de-anonymised such as:
 
@@ -126,3 +126,7 @@ The best way to verify the integrity hash of a `yarn.lock` is to compare the int
    ```
      $ diff -r node_modules/<depedency> tmp/<downloaded_dependency>
    ```
+
+
+
+[def]: https://github.com/MyCryptoHQ/stats
